@@ -3,7 +3,7 @@ const path      = require("path");
 const hbs       = require("hbs");
 const forecast   = require("./src/utils/forecast");
 
-const port  = process.env.PORT || 3000;
+const port  = process.env.PORT || 4000;
 
 const app = express();
 
